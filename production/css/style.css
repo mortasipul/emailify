@@ -105,6 +105,7 @@ div.info {
 
 label {
   position: absolute;
+  display: block;
   -webkit-transform: translateY(6px);
           transform: translateY(6px);
   left: 13px;
@@ -202,4 +203,76 @@ textarea {
 .forgot {
   margin-top: -20px;
   text-align: right;
+}
+
+.edit-profile label{
+  color: #000000;
+  -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+  transition: border-color .25s ease, box-shadow .25s ease;
+  position: relative;
+}
+
+.edit-profile input {
+  padding: 10px 10px;
+}
+
+.x_content .edit-profile-btn {
+  background: #1ab188;
+}
+#content{
+  width: 93%;
+  margin: 20px auto;
+  border: 1px solid #cbcbcb;
+}
+form{
+  width: 50%;
+  margin: 20px auto;
+}
+form div{
+  margin-top: 5px;
+}
+#img_div{
+  width: 80%;
+  padding: 5px;
+  margin: 15px auto;
+  border: 1px solid #cbcbcb;
+}
+#img_div:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+img{
+  float: left;
+  margin: 5px;
+  width: 277px;
+  height: 140px;
+}
+
+#butonsalv {
+  box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+  border-radius: 0 0 5px 5px;
+  padding: 15px 0;
+  background: #1ab188;
+  margin-bottom: 30px;
+  outline: none;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+  margin-top: 30px;
+}
+.salvare_imagine {
+  margin-bottom: 30px;
+}
+
+#fileToUpload {
+  height:50px;
+  width:200px;
+  margin:auto;
+
 }
